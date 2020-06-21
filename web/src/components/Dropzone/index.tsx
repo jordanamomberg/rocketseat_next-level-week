@@ -20,7 +20,7 @@ const Dropzone: React.FC<Props> = ({ onFileUploaded }) => {
       onFileUploaded(file);
   }, [onFileUploaded]);
 
-  const {getRootProps, getInputProps,isDragActive} = useDropzone({
+  const {getRootProps, getInputProps} = useDropzone({
     onDrop,
     accept: 'image/*',
   });
@@ -34,7 +34,7 @@ const Dropzone: React.FC<Props> = ({ onFileUploaded }) => {
           : (
             <p>
               <FiUpload />
-              Imagem do estabelecimento
+              Imagem do ponto de coleta
             </p>
           )
       }
