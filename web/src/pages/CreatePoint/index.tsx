@@ -6,10 +6,12 @@ import axios from 'axios';
 import { LeafletMouseEvent } from 'leaflet';
 import api from "../../services/api";
 
+//import Dropzone from '../../components/Dropzone';
+//import Dropzone from 'react-dropzone'
 import Dropzone from '../../components/Dropzone';
 
 import logo from "../../assets/logo.svg";
- 
+
 import "./styles.css";
 
 interface item { 
@@ -244,9 +246,8 @@ const CreatePoint = () => {
 
                 <fieldset>
                     <legend>
-                        <h2>Tipos sanguíneos</h2>
-                        <span>Selecione um ou mais tipos sanguíneos <br></br>
-                        com maior necessidade de coleta  </span>
+                        <h2>Ítens de coleta</h2>
+                        <span>Selecione um ou mais ítens abaixo</span>
                     </legend>
 
                     <ul className="items-grid">

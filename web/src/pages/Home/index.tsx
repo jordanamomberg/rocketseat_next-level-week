@@ -11,17 +11,14 @@ const Home = () => {
         <div id="page-home">
             <div className="content">
                 <header>
-                    <img src={logo} alt="Mais Vidas" />
+                    <img src={logo} alt="Ecoleta" />
                 </header>
 
                 <main>
-                    <h1>
-                        Doe <span>Sangue</span><br></br>
-                        Salve <span>Vidas</span>
-                    </h1>
+                    <h1>Seu marketplace de coleta de resíduos.</h1>
                     <p>
-                        Pra quem doa são alguns minutos, pra quem recebe é uma vida inteira.<br></br> <br></br>
-                        Ajudamos você encontrar pontos de coleta.  
+                        Ajudamos pessoas a encontrarem pontos de coleta de forma
+                        eficiente.
                     </p>
 
                     <Link to="/create-point">
